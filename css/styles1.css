@@ -17,8 +17,16 @@
 html, body {
   font-family: 'Roboto', 'Helvetica', sans-serif;
 }
-.mdl-card { width: 100%; }
-.mdl-card__title { color: #fff; background: rgba(0, 0, 0, 0.2); font-size: 14px; } 
+.mdl-card {
+  width: 100%;
+}
+.mdl-card__title {
+  color: #fff; background: rgba(0, 0, 0, 0.2); font-size: 14px;
+}
+
+.mdl-chart {
+  text-align: center
+}
 
 .wm-avatar {
   width: 48px;
