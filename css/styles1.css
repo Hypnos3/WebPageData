@@ -32,6 +32,9 @@ dt {
  margin-right:0.7em;
  padding: 0;
 }
+dt:after {
+    content: ": "
+}
 dd {
  float:left;
  color:#999
