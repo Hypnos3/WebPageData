@@ -192,3 +192,12 @@
 		replaceHtml: false
 	};
 })(jQuery);
+
+//change value of checkbox element
+function changeValueCheckbox(element){
+   if(element.checked){
+    element.value='on';
+  }else{
+    element.value='off';
+  }
+}
